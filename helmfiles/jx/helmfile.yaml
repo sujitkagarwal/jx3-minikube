@@ -32,12 +32,12 @@ releases:
   - ../../versionStream/charts/jxgh/jx-pipelines-visualizer/values.yaml.gotmpl
   - jx-values.yaml
 - chart: jxgh/jx-preview
-  version: 0.0.240
+  version: v0.1.0
   name: jx-preview
   values:
   - jx-values.yaml
 - chart: jxgh/lighthouse
-  version: 1.11.12
+  version: v1.12.1
   name: lighthouse
   values:
   - ../../versionStream/charts/jxgh/lighthouse/values.yaml.gotmpl
